@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***********
+ * Footer
+ **********/
+footer {
+    display: flex;
+    justify-content: center;
+    color: #fefefe;
+    background: #c8c8c8;
+    height: 10vh;
+    position:absolute;
+    bottom: 0;
+    width: 100%
+}
+
+/* footer > ul > li > a:link, a:visited a:hover a:active{
+    text-decoration: none;
+    color:#fefefe;
+} */
+
+footer > ul > li{
+    list-style-type: none;
+    display: inline;
+}
+
+/**********
+ * Identificadores
+ **********/
+
+ #cabecera {
+    display: flex;
+    background: #c8c8c8;
+    /* Ocupar ancho completo, siempre arriba, pegado.*/
+    width: 100%
+}
+
+#logoCabecera {
+    float: left;
+    align-items: baseline;
+    /* Ocupar ancho completo, siempre arriba, pegado.*/
+    width: 100%
+}
+
+#login {
+    float: right;
+    /* background: #015c5c; - Solo colorea el contorno del boton */
+}
+
+#logo, #tour {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background: #FEFEFE;
+    clear: both;
+}
+
+#invitacion {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+#logo{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: baseline;
+}
+
+/***********
+ * Miguitas de pan!
+ ***********/
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+/* Cosas que robo de internet */
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.contenedor-texto {
+    min-height: 360px;
+    border: 0;
+    font: inherit;
+    font-size: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
